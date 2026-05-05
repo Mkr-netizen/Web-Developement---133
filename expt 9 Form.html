@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>
+<h2>Student Registration Form</h2>
+
+<form>
+
+<label>First Name:</label>
+<input type="text" name="firstname" required><br><br>
+
+<label>Middle Name:</label>
+<input type="text" name="middlename"><br><br>
+
+<label>Last Name:</label>
+<input type="text" name="lastname" required><br><br>
+
+<label>Address:</label><br>
+<textarea name="address" rows="4" cols="40" required></textarea><br><br>
+
+
+<label>Mobile No:</label>
+<input type="tel" name="mobile" pattern="[0-9]{10}" placeholder="Enter 10-digit number" required><br><br>
+
+<label>Gender:</label><br>
+<input type="radio" name="gender" value="male" required> Male<br>
+<input type="radio" name="gender" value="female"> Female<br>
+<input type="radio" name="gender" value="other"> Other<br><br>
+
+<label>College:</label>
+<select name="college" required>
+<option value="">Select College</option>
+<option value="COEP">COEP</option>
+<option value="MIT">MIT</option>
+<option value="DYPCET">DYPCET</option>
+<option value="VIT">VIT</option>
+<option value="PCCOE">PCCOE</option>
+</select><br><br>
+
+<label>Branch:</label>
+<select name="branch" required>
+<option value="">--Select Branch--</option>
+<option value="CSE">Computer Science</option>
+<option value="IT">Information Technology</option>
+<option value="ENTC">Electronics & Telecommunication</option>
+<option value="MECH">Mechanical</option>
+<option value="CIVIL">Civil</option>
+</select><br><br>
+
+<label>Technical Skills:</label><br>
+<input type="checkbox" name="skills" value="C"> C<br>
+<input type="checkbox" name="skills" value="C++"> C++<br>
+<input type="checkbox" name="skills" value="Java"> Java<br>
+<input type="checkbox" name="skills" value="Python"> Python<br>
+<input type="checkbox" name="skills" value="Web Development"> Web Development<br><br>
+
+<input type="submit" value="Submit">
+
+</form>
+
+</body>
+</html>
